@@ -3,6 +3,11 @@ package dao;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
+/** Classe Android para utilizar a classe SQLHelper
+ * @author Arthur Assuncao
+ * @license Creative Commons3 <http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR>
+ * @see SQLHelper
+ */
 public class DatabaseHelper {
 	private SQLHelper sqlHelper;
 	private SQLiteDatabase db;

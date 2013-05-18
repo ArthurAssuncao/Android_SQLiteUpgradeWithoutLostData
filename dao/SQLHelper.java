@@ -10,6 +10,11 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+/** Classe Android para criação de banco de dados que permite Upgrade e Downgrade do banco de dados sem perder os dados.
+ * @author Arthur Assuncao
+ * @license Creative Commons3 <http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR>
+ * @see SQLiteOpenHelper
+ */
 public class SQLHelper extends SQLiteOpenHelper {
 
 	private String[] tabelas;
